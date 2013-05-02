@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>pspudbClass</class>
+ <widget class="QMainWindow" name="pspudbClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>417</width>
+    <height>258</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>pspudb</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QTabWidget" name="tabWidget">
+      <property name="currentIndex">
+       <number>-1</number>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>417</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuTools">
+    <property name="title">
+     <string>Tools</string>
+    </property>
+    <widget class="QMenu" name="menuCompression_Tool">
+     <property name="title">
+      <string>Compression Tool</string>
+     </property>
+     <addaction name="actionConvert_ISO_CSO"/>
+     <addaction name="actionConvert_ISO_7SO"/>
+     <addaction name="separator"/>
+     <addaction name="actionConvert_CSO_ISO"/>
+     <addaction name="actionConvert_7SO_ISO"/>
+    </widget>
+    <addaction name="menuCompression_Tool"/>
+    <addaction name="separator"/>
+    <addaction name="actionRename_Tool"/>
+    <addaction name="actionFixup_UMDs_entries"/>
+   </widget>
+   <widget class="QMenu" name="menuOptions">
+    <property name="title">
+     <string>Options</string>
+    </property>
+    <addaction name="actionGeneralSettings"/>
+   </widget>
+   <addaction name="menuOptions"/>
+   <addaction name="menuTools"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionUpdate">
+   <property name="text">
+    <string>Update</string>
+   </property>
+  </action>
+  <action name="actionStatistics">
+   <property name="text">
+    <string>Statistics</string>
+   </property>
+  </action>
+  <action name="actionAbout">
+   <property name="text">
+    <string>About</string>
+   </property>
+  </action>
+  <action name="actionChange_UMD_Path">
+   <property name="text">
+    <string>Change UMD Path</string>
+   </property>
+  </action>
+  <action name="actionSettings">
+   <property name="text">
+    <string>Settings</string>
+   </property>
+  </action>
+  <action name="actionConfiguration">
+   <property name="text">
+    <string>Configuration</string>
+   </property>
+  </action>
+  <action name="actionConvert_ISO_CSO">
+   <property name="text">
+    <string>Convert ISO --&gt; CSO</string>
+   </property>
+  </action>
+  <action name="actionConvert_ISO_7SO">
+   <property name="text">
+    <string>Convert ISO --&gt; 7SO</string>
+   </property>
+  </action>
+  <action name="actionConvert_CSO_ISO">
+   <property name="text">
+    <string>Convert CSO --&gt; ISO</string>
+   </property>
+  </action>
+  <action name="actionConvert_7SO_ISO">
+   <property name="text">
+    <string>Convert 7SO --&gt; ISO</string>
+   </property>
+  </action>
+  <action name="actionGeneralSettings">
+   <property name="text">
+    <string>Settings</string>
+   </property>
+  </action>
+  <action name="actionRename_Tool">
+   <property name="text">
+    <string>Rename Tool</string>
+   </property>
+  </action>
+  <action name="actionFixup_UMDs_entries">
+   <property name="text">
+    <string>Fixup UMDs entries</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="../res/pspudb.qrc"/>
+ </resources>
+ <connections/>
+ <slots>
+  <slot>updateAction()</slot>
+  <slot>duplicateDialogButton()</slot>
+  <slot>isoDialogButton()</slot>
+  <slot>statisticsAction()</slot>
+  <slot>changepathAction()</slot>
+  <slot>jpcspbutton()</slot>
+  <slot>configureAction()</slot>
+  <slot>renameAction()</slot>
+  <slot>pspemubutton()</slot>
+  <slot>pcspbutton()</slot>
+  <slot>cpspemubutton()</slot>
+ </slots>
+</ui>

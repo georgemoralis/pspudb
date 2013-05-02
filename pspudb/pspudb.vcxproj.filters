@@ -1,0 +1,611 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{bcc3a6c6-e451-4860-b05b-b11aa73cd7e1}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{e076ed5f-facb-405c-bce2-0bfb1775a410}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Template">
+      <UniqueIdentifier>{357da7a3-7391-4e74-9870-560782c52c3c}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="zlib">
+      <UniqueIdentifier>{441b8bf0-b3d7-4b52-82a3-06a5e3f20911}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main classes">
+      <UniqueIdentifier>{9f65e5ad-ae32-4294-8241-b0a5e00b81dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="compression">
+      <UniqueIdentifier>{78b4d8b6-b617-4962-bfec-7b7afdca2603}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="compression\compress to CSO">
+      <UniqueIdentifier>{1bb06418-3d5c-4482-82c4-70f712fc990a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="compression\compress to 7SO">
+      <UniqueIdentifier>{dea2d628-a4b9-496a-96a1-8033ef243481}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Settings">
+      <UniqueIdentifier>{878a4c23-4053-4399-95a6-385f5b21c5f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DemoTab">
+      <UniqueIdentifier>{66131a1c-0276-45fa-a3ea-a9ede1eef11b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="emulators">
+      <UniqueIdentifier>{83d1c78c-a418-4ac2-a9cc-a07b57451c56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="emulators\jpcsp">
+      <UniqueIdentifier>{9e1bd296-0174-45b4-a495-b0eca8cca9b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ApplicationsTab">
+      <UniqueIdentifier>{f918bef6-9d80-4925-9b66-7dc96521b6d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SavesTab">
+      <UniqueIdentifier>{beda53b0-be41-46d1-bf75-f3cf730e54b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="umdTab">
+      <UniqueIdentifier>{d7d027b2-10f2-4e93-9f55-0a0148edab11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="imageviewer">
+      <UniqueIdentifier>{447b61c1-194c-48dd-9777-147f062aad2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renameTool">
+      <UniqueIdentifier>{c40d541b-8250-4b9a-b065-0fdb5ab7dc8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="databaseTools">
+      <UniqueIdentifier>{32248fb4-d8c8-4bcd-b7a5-8049dff42bc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fixupGames">
+      <UniqueIdentifier>{a29bb596-6599-4688-b4ba-8658a418bc3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="umdloader">
+      <UniqueIdentifier>{dce13ac2-1e3f-47ee-927e-754148c354b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="emulators\ppsspp">
+      <UniqueIdentifier>{3e0c24c6-a554-4442-b813-d755288f34e8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ext\zlib\adler32.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="ext\zlib\compress.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="ext\zlib\crc32.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="ext\zlib\deflate.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="ext\zlib\gzio.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="ext\zlib\infback.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="ext\zlib\inffast.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="ext\zlib\inflate.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="ext\zlib\inftrees.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="ext\zlib\trees.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="ext\zlib\uncompr.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="ext\zlib\zutil.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_pspudb.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>main classes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pspudb.cpp">
+      <Filter>main classes</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_pspudb.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_pspudb.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_pspudb.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="src\compress\CSO\compressdialog.cpp">
+      <Filter>compression\compress to CSO</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_compressdialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_compressdialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_compressdialog.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="src\compress\ProgressDialog.cpp">
+      <Filter>compression</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ProgressDialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ProgressDialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_ProgressDialog.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WorkerThread.cpp">
+      <Filter>main classes</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_WorkerThread.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_WorkerThread.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_WorkerThread.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="src\compress\7SO\compress7sodialog.cpp">
+      <Filter>compression\compress to 7SO</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_compress7sodialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_compress7sodialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_compress7sodialog.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Settings.cpp">
+      <Filter>Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_settingsdialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_settingsdialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_settingsdialog.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="src\settingsdialog.cpp">
+      <Filter>Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_filebrowserwidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_filebrowserwidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_filebrowserwidget.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="src\demoTab\filebrowserwidget.cpp">
+      <Filter>DemoTab</Filter>
+    </ClCompile>
+    <ClCompile Include="src\demoTab\files.cpp">
+      <Filter>DemoTab</Filter>
+    </ClCompile>
+    <ClCompile Include="src\emulators\jpcsp.cpp">
+      <Filter>emulators\jpcsp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\applicationsTab\applicationwidget.cpp">
+      <Filter>ApplicationsTab</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_applicationwidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_applicationwidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_applicationwidget.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="src\applicationsTab\pspapplication.cpp">
+      <Filter>ApplicationsTab</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SavesTab\savegame.cpp">
+      <Filter>SavesTab</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SavesTab\saveswidget.cpp">
+      <Filter>SavesTab</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_saveswidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_saveswidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_saveswidget.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="src\umdTab\umdwidget.cpp">
+      <Filter>umdTab</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_umdwidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_umdwidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_umdwidget.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_umdTableModel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_umdTableModel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_umdTableModel.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="src\imageviewer\qimageviewer.cpp">
+      <Filter>imageviewer</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qimageviewer.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qimageviewer.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_qimageviewer.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="src\renametool\renamedialog.cpp">
+      <Filter>renameTool</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_renamedialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_renamedialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_renamedialog.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="src\fixupgames\fixupgames.cpp">
+      <Filter>fixupGames</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_fixupgames.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_fixupgames.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_fixupgames.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="src\umdloader\iso.cpp">
+      <Filter>umdloader</Filter>
+    </ClCompile>
+    <ClCompile Include="src\umdloader\isodrv.cpp">
+      <Filter>umdloader</Filter>
+    </ClCompile>
+    <ClCompile Include="src\umdloader\umdimageloader.cpp">
+      <Filter>umdloader</Filter>
+    </ClCompile>
+    <ClCompile Include="src\umdloader\psf.cpp">
+      <Filter>umdloader</Filter>
+    </ClCompile>
+    <ClCompile Include="src\emulators\ppsspp.cpp">
+      <Filter>emulators\ppsspp</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ext\zlib\crc32.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\zlib\deflate.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\zlib\inffast.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\zlib\inffixed.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\zlib\inflate.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\zlib\inftrees.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\zlib\trees.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\zlib\zconf.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\zlib\zlib.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\zlib\zutil.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\zlib\include\zlib.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_pspudb.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_compressdialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_ProgressDialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_compress7sodialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Settings.h">
+      <Filter>Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_settingsdialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_filebrowserwidget.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\demoTab\files.h">
+      <Filter>DemoTab</Filter>
+    </ClInclude>
+    <ClInclude Include="src\emulators\jpcsp.h">
+      <Filter>emulators\jpcsp</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_applicationwidget.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\applicationsTab\pspapplication.h">
+      <Filter>ApplicationsTab</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SavesTab\savegame.h">
+      <Filter>SavesTab</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_saveswidget.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sqlconnection.h">
+      <Filter>main classes</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_umdwidget.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_qimageviewer.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_renamedialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\databasetools\databaseChecks.h">
+      <Filter>databaseTools</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_fixupgames.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\umdloader\iso.h">
+      <Filter>umdloader</Filter>
+    </ClInclude>
+    <ClInclude Include="src\umdloader\isodrv.h">
+      <Filter>umdloader</Filter>
+    </ClInclude>
+    <ClInclude Include="src\umdloader\isolib.h">
+      <Filter>umdloader</Filter>
+    </ClInclude>
+    <ClInclude Include="src\umdloader\types.h">
+      <Filter>umdloader</Filter>
+    </ClInclude>
+    <ClInclude Include="src\umdloader\umdimageloader.h">
+      <Filter>umdloader</Filter>
+    </ClInclude>
+    <ClInclude Include="src\umdloader\psf.h">
+      <Filter>umdloader</Filter>
+    </ClInclude>
+    <ClInclude Include="src\emulators\ppsspp.h">
+      <Filter>emulators\ppsspp</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="res\pspudb.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="res\pspudb.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\pspudb.h">
+      <Filter>main classes</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\pspudb.ui">
+      <Filter>main classes</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\compress\CSO\compressdialog.h">
+      <Filter>compression\compress to CSO</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\compress\CSO\compressdialog.ui">
+      <Filter>compression\compress to CSO</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\compress\ProgressDialog.h">
+      <Filter>compression</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\compress\ProgressDialog.ui">
+      <Filter>compression</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\WorkerThread.h">
+      <Filter>main classes</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\compress\7SO\compress7sodialog.h">
+      <Filter>compression\compress to 7SO</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\compress\7SO\compress7sodialog.ui">
+      <Filter>compression\compress to 7SO</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\settingsdialog.h">
+      <Filter>Settings</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\settingsdialog.ui">
+      <Filter>Settings</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\demoTab\filebrowserwidget.h">
+      <Filter>DemoTab</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\demoTab\filebrowserwidget.ui">
+      <Filter>DemoTab</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\applicationsTab\applicationwidget.h">
+      <Filter>ApplicationsTab</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\applicationsTab\applicationwidget.ui">
+      <Filter>ApplicationsTab</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\SavesTab\saveswidget.h">
+      <Filter>SavesTab</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\SavesTab\saveswidget.ui">
+      <Filter>SavesTab</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\umdTab\umdwidget.h">
+      <Filter>umdTab</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\umdTab\umdwidget.ui">
+      <Filter>umdTab</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\umdTab\umdTableModel.h">
+      <Filter>umdTab</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\imageviewer\qimageviewer.h">
+      <Filter>imageviewer</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\imageviewer\qimageviewer.ui">
+      <Filter>imageviewer</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\renametool\renamedialog.h">
+      <Filter>renameTool</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\renametool\renamedialog.ui">
+      <Filter>renameTool</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\fixupgames\fixupgames.h">
+      <Filter>fixupGames</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\fixupgames\fixupgames.ui">
+      <Filter>fixupGames</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\images\zoom-in.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\images\zoom-out.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\images\zoom-original.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\images\zoom-fit-best.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\images\go-previous.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\images\go-next.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\images\pspe4all.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\images\folder.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\images\icon0.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\images\pspdevice.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\images\cpspemu.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\images\pcsp-logo.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\images\pspemu.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\images\cso.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\images\iso.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\images\settings.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\images\psp.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\images\flags\au.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\images\flags\ru.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\images\flags\de.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\images\flags\es.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\images\flags\fr.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\images\flags\gr.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\images\flags\it.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\images\flags\cn.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\images\flags\europeanunion.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\images\flags\jp.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\images\flags\kr.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\images\flags\us.png">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

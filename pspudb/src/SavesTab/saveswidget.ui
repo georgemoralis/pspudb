@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>savesWidget</class>
+ <widget class="QWidget" name="savesWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>840</width>
+    <height>583</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>840</width>
+    <height>583</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>savesWidget</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout">
+   <item>
+    <widget class="QTableView" name="savesTable">
+     <property name="editTriggers">
+      <set>QAbstractItemView::NoEditTriggers</set>
+     </property>
+     <property name="selectionMode">
+      <enum>QAbstractItemView::ExtendedSelection</enum>
+     </property>
+     <property name="selectionBehavior">
+      <enum>QAbstractItemView::SelectRows</enum>
+     </property>
+     <property name="showGrid">
+      <bool>false</bool>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QGroupBox" name="groupBox">
+     <property name="minimumSize">
+      <size>
+       <width>300</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="title">
+      <string/>
+     </property>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>20</y>
+        <width>131</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Choose save data folder:</string>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="sourceselectCombo">
+      <property name="geometry">
+       <rect>
+        <x>150</x>
+        <y>20</y>
+        <width>141</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <item>
+       <property name="text">
+        <string>None</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>PSP Device</string>
+       </property>
+       <property name="icon">
+        <iconset resource="../../res/pspudb.qrc">
+         <normaloff>:/pspudb/images/pspdevice.png</normaloff>:/pspudb/images/pspdevice.png</iconset>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Local folder</string>
+       </property>
+       <property name="icon">
+        <iconset resource="../../res/pspudb.qrc">
+         <normaloff>:/pspudb/images/folder.png</normaloff>
+         <normalon>:/pspudb/res/folder.png</normalon>:/pspudb/images/folder.png</iconset>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>JPCSP emu</string>
+       </property>
+       <property name="icon">
+        <iconset resource="../../res/pspudb.qrc">
+         <normaloff>:/pspudb/images/psp.png</normaloff>:/pspudb/images/psp.png</iconset>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>PCSP emu</string>
+       </property>
+       <property name="icon">
+        <iconset resource="../../res/pspudb.qrc">
+         <normaloff>:/pspudb/images/pcsp-logo.png</normaloff>:/pspudb/images/pcsp-logo.png</iconset>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>PSPE4ALL emu</string>
+       </property>
+       <property name="icon">
+        <iconset resource="../../res/pspudb.qrc">
+         <normaloff>:/pspudb/images/pspe4all.ico</normaloff>:/pspudb/images/pspe4all.ico</iconset>
+       </property>
+      </item>
+     </widget>
+     <widget class="QLabel" name="savedatalabel">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>120</y>
+        <width>271</width>
+        <height>251</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Calibri</family>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::NoFrame</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Plain</enum>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="scaledContents">
+       <bool>false</bool>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_2">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>90</y>
+        <width>101</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Save Data Detail:</string>
+      </property>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="../../res/pspudb.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>sourceselectCombo</sender>
+   <signal>currentIndexChanged(int)</signal>
+   <receiver>savesWidget</receiver>
+   <slot>RefreshSaveTable(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>697</x>
+     <y>39</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>689</x>
+     <y>-34</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>RefreshSaveTable(int)</slot>
+ </slots>
+</ui>

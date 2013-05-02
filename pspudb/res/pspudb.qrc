@@ -1,0 +1,36 @@
+<RCC>
+  <qresource prefix="pspudb">
+    <file>images/ppsspp.ico</file>
+    <file>images/zoom-in.png</file>
+    <file>images/zoom-out.png</file>
+    <file>images/zoom-original.png</file>
+    <file>images/zoom-fit-best.png</file>
+    <file>images/go-previous.png</file>
+    <file>images/go-next.png</file>
+    <file>images/pspe4all.ico</file>
+    <file>images/folder.png</file>
+    <file>images/icon0.png</file>
+    <file>images/pspdevice.png</file>
+    <file>images/cpspemu.png</file>
+    <file>images/pcsp-logo.png</file>
+    <file>images/pspemu.png</file>
+    <file>images/cso.png</file>
+    <file>images/iso.png</file>
+    <file>images/settings.png</file>
+    <file>images/psp.png</file>
+  </qresource>
+  <qresource prefix="/flags">
+    <file alias="Australia.png">images/flags/au.png</file>
+    <file alias="Russia.png">images/flags/ru.png</file>
+    <file alias="German.png">images/flags/de.png</file>
+    <file alias="Spain.png">images/flags/es.png</file>
+    <file alias="France.png">images/flags/fr.png</file>
+    <file alias="Greece.png">images/flags/gr.png</file>
+    <file alias="Italy.png">images/flags/it.png</file>
+    <file alias="China.png">images/flags/cn.png</file>
+    <file alias="Europe.png">images/flags/europeanunion.png</file>
+    <file alias="Japan.png">images/flags/jp.png</file>
+    <file alias="South Korea.png">images/flags/kr.png</file>
+    <file alias="USA.png">images/flags/us.png</file>
+  </qresource>
+</RCC>
