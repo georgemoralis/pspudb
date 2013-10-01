@@ -24,3 +24,7 @@ Basic Support for all popular emulators (jpcsp,pcsp,pspe4all,pspemu,ppssspp)
 
 And few more that i probably don't remember
 
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/georgemoralis/pspudb/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
